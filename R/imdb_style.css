@@ -1,0 +1,78 @@
+/* General Body Styling */
+body {
+  background-color: #1a1a1a; /* Dark background */
+  color: #ffffff; /* White text for readability */
+}
+
+/* Header Styling */
+.main-header {
+  background-color: #ffcc00 !important; /* IMDb yellow */
+  color: #000000 !important; /* Black text */
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Sidebar Styling */
+.main-sidebar {
+  background-color: #000000; /* Pure black sidebar */
+  color: #ffffff; /* White text for sidebar items */
+}
+
+.main-sidebar .sidebar-menu > li > a {
+  color: #ffffff; /* White text for menu items */
+}
+.main-sidebar .sidebar-menu > li > a:hover {
+  background-color: #ffcc00; /* IMDb yellow on hover */
+  color: #000000; /* Black text on hover */
+}
+
+/* Box Styling */
+.box {
+  background-color: #262626; /* Charcoal box background */
+  border: 1px solid #444444; /* Subtle gray border */
+  color: #ffffff; /* White text */
+}
+
+.box-header {
+  background-color: #333333; /* Darker box header */
+  color: #ffffff; /* White text */
+  font-weight: bold;
+}
+
+/* Chart Colors */
+.plotly {
+  background-color: transparent; /* Transparent background for charts */
+}
+
+.plotly .main-svg .scatterlayer path {
+  stroke: #3498db; /* Blue for lines in line charts */
+}
+
+.plotly .main-svg .bar {
+  fill: #e67e22; /* Orange for bars */
+}
+
+.plotly .main-svg .marker {
+  fill: #2ecc71; /* Green for positive points */
+}
+
+/* Buttons and Highlights */
+.btn {
+  background-color: #00d1b2; /* Bright teal for buttons */
+  color: #ffffff; /* White text for buttons */
+}
+
+.btn:hover {
+  background-color: #ffcc00; /* IMDb yellow on hover */
+  color: #000000; /* Black text on hover */
+}
+
+/* Highlighted Elements */
+.highlight {
+  background-color: #ff00ff; /* Magenta for special highlights */
+  color: #ffffff; /* White text */
+}
+
+.interactive-element {
+  color: #ffff00; /* Neon yellow for interactive elements */
+}

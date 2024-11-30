@@ -1,0 +1,10 @@
+# Load all necessary libraries
+library(shiny)
+library(shinydashboard)
+library(shinythemes)
+library(dplyr)
+library(ggplot2)
+library(plotly)
+library(DT)
+library(DBI)
+library(RMySQL)
