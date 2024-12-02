@@ -11,6 +11,6 @@ Welcome to my hobby project, IMDb Dashboard! This project is all about exploring
 ## Technologies Used
 - R & Shiny: For creating the interactive web dashboard.
 - SQL: For querying and managing the movie data.
-- Plotly & dplyr: For data wrangling and dynamic visuals.
+- Plotly: For interactive visuals.
 - Python & Pandas: To handle large TSV files by splitting them into manageable parts for better performance and data manipulation.
 - IMDb Dataset: The star of the show—my source of movie data!
